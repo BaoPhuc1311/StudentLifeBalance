@@ -18,7 +18,7 @@ By inputting a student's information, the model determines their health risk lev
 ## Dataset
 
 The dataset used for this project can be found at:
-[🔗 Student Health Dataset](https://www.kaggle.com/datasets/ziya07/student-health-data)
+[Student Health Dataset](https://www.kaggle.com/datasets/ziya07/student-health-data)
 
 ## Installation
 
@@ -40,7 +40,7 @@ pip install -r requirements.txt
 Once the installation is complete, you can run the application with:
 
 ```
-python main.py
+python src/main.py
 ```
 
 ## Model Performance
@@ -55,3 +55,7 @@ precision    recall  f1-score   support
        0       1.00      0.91      0.95        32
        1       1.00      0.98      0.99        47
        2       0.97      1.00      0.98       121
+
+## Visualization Data
+
+![Matrix](./images/confusion_matrix.png)
